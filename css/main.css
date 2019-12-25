@@ -1,0 +1,35 @@
+.main {
+  width: 343px;
+  height: 340px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.main #slideContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1209px;
+}
+
+.main #slideContainer div {
+  width: 343px;
+  height: 343px;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.7;
+}
+
+button {
+  -webkit-box-shadow: 5px 5px 5px lightblue;
+          box-shadow: 5px 5px 5px lightblue;
+  cursor: pointer;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=main.css.map */
